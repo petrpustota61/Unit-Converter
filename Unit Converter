@@ -1,0 +1,6 @@
+def kilometers_to_miles(km):
+    return km * 0.621371
+
+kilometers = float(input("Enter the distance in kilometers: "))
+miles = kilometers_to_miles(kilometers)
+print(f"{kilometers} kilometers = {miles:.2f} miles")
